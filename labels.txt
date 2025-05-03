@@ -1,0 +1,5 @@
+0 Rice_Healthy
+1 Rice_bacterialleafblight
+2 Rice_brownspot
+3 Rice_Leafscald
+4 Rice_narrowbrownspot
