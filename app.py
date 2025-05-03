@@ -7,14 +7,14 @@ app = Flask(__name__)
 
 try:
     # Load the quantized TFLite model
-    interpreter = tf.lite.Interpreter(model_path="D:/rice_api/model.tflite")
+    interpreter = tf.lite.Interpreter(model_path="model.tflite")
     interpreter.allocate_tensors()
 
     input_details = interpreter.get_input_details()
     output_details = interpreter.get_output_details()
 
     # Load class labels
-    with open("D:/rice_api/labels.txt", "r") as f:
+    with open("labels.txt", "r") as f:
         labels = [line.strip() for line in f.readlines()]
 
     print("✅ Model and labels loaded successfully")
