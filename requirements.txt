@@ -5,3 +5,5 @@ numpy==2.0.2
 pandas==2.2.3        # For data manipulation (if used in your model)
 tensorflow==2.18.0 
 scikit-learn==1.5.2
+Pillow
+
